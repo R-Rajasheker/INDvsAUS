@@ -1,0 +1,50 @@
+head{
+    display: none;
+}
+body{
+    background-image: url("./cup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.teams{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 40px;
+    margin: auto;
+    margin-top: -20px;
+}
+h2{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: xx-large;
+}
+.t{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 200px;
+    height: fit-content;
+}
+table{
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px ;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
